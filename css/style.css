@@ -62,4 +62,11 @@ input[type="search_text"] {
 
 .catalog_menu{
     list-style-type: none;
+    width: 164px;
+    height: 142px;
+}
+
+.catalog_menu li p {
+    top: 12px;
+    text-align: center;
 }
