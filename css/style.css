@@ -1,3 +1,12 @@
+/* @font-face {
+  font-family: 'MTSans'; 
+  src: url('../fonts/MTSans-LightCondensed.ttf'); 
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/*---HEADER---*/
+
 .header {
     width: 100%;
     height: 80px;
@@ -8,12 +17,26 @@
     float: left;
 }
 
+/*---LOG---*/
+
 .log {
     width: 14%;
     height: 80px;
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
     float: left;
 }
+
+.log p {
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 32px;
+    top: -4px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*---SEARCH---*/
 
 .search {
     width: 53%;
@@ -28,13 +51,43 @@ input[type="search_text"] {
     border-radius: 7px  ;
     outline: none;
     position: absolute;
-    left: 266px;
+    left: 286px;
     top: 12px;
     box-sizing: border-box;
     float: left;
-    
+}
+
+/*---MENU---*/
+
+.menu {
+    float: left;
+    width: 33%;
+    height: 80px;
+}
+
+.menu_name {
+     list-style: none;
+}
+
+.menu_name li {
+	float: left;
+    margin-left: 99px;
+    margin-top: -8px;
+}
+
+.menu_name li a {
+    text-decoration: none;
     
 }
+
+.menu_name li a p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white
+}
+
+/*---CATALOG---*/
 
 .catalog {
     width: 14%;
@@ -44,11 +97,9 @@ input[type="search_text"] {
     position: absolute;
     top: 102px;
     left: 0;
+    border-radius: 2px;
 }
 
-.catalog_menu ul li {
-    text-decoration: none;
-}
 
 .catalog_menu li a {
     text-decoration: none;
@@ -58,8 +109,23 @@ input[type="search_text"] {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-transform: uppercase;
+color: white
+
 }
 
 .catalog_menu{
     list-style-type: none;
+}
+
+/*---FOOTER---*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #4a6b50;
+  color: white;
+  padding: 40px 0;
+  width: 100%;
 }
