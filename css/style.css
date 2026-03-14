@@ -45,13 +45,13 @@
 }
 
 input[type="search_text"] {
-    width: 51%;
+    width: 49%;
     height: 56px;
     border-color: #6c9274;
     border-radius: 7px  ;
     outline: none;
     position: absolute;
-    left: 286px;
+    left: 329px;
     top: 12px;
     box-sizing: border-box;
     float: left;
@@ -128,4 +128,45 @@ color: white
   color: white;
   padding: 40px 0;
   width: 100%;
+}
+
+/*---CONNECTION.HTML---*/
+
+.cont_name{
+    position: absolute;
+    top: 78px;
+    float: left;
+}
+
+.cont_name h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+    width: 560px;
+    height: 440px;
+    background-color: white;
+    position: absolute;
+    border-radius: 9px;
+    top: 139px;
+    float: left;
+    border-style: inset;
+    border-color: #9DB3A6;
+    
+}
+
+.contact p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* position: absolute; */
+    /* left: 20px; */
+    /* margin-top: 5px; */
+    margin: 10px;
+
+}
+
+.contact h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px; 
 }
